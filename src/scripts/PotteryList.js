@@ -2,8 +2,6 @@ import { usePottery } from "./PotteryCatalog.js"
 
 const potteryPieces = usePottery()
 
-console.log(potteryPieces)
-
 export const potteryList = () => {
     let html = " "
     for (const potteryPiece of potteryPieces) {
